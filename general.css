@@ -1,0 +1,81 @@
+p{
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(255, 231, 249);
+}
+
+.main-gif{
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+  margin-top: 80px;
+}
+
+.sub-heading{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: rgb(195, 139, 211);
+  color: rgb(255, 249, 255);
+  font-family: 'Richy';
+  margin-top: 50px;
+  height: 100px;
+}
+
+.about-website{
+  height: 250px;
+  margin-top: -20px;
+  background-color: rgb(255, 246, 255);
+ 
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  color: rgb(150, 14, 188);
+  height: 50px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-section{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  width: fit-content;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(150, 14, 188);
+  font-weight: bold;
+
+}
+.right-section{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+  width: fit-content;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(150, 14, 188);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Richy';
+  src: url(fonts/Richy);
+}
+@font-face {
+  font-family: 'Belistaria';
+  src: url(fonts/Belistaria\ Signature.ttf);
+}
