@@ -1,0 +1,103 @@
+.toggle-button{
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 18px;
+}
+.toggle-button .bar{
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+#bar1{
+  transform: translateY(-4px);
+}
+
+#bar3{
+  transform: translateY(4px);
+}
+
+.icon .bar{
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  position: absolute;
+  left: 100px;
+  z-index: 305;
+}
+
+.icon #bar1{
+  transform: translateY(5px) rotate(135deg);
+}
+
+.icon #bar3{
+  transform: translateY(5px) rotate(-135deg);
+}
+
+.icon #bar2{
+  opacity: 0;
+}
+
+.navbar{
+  display: flex;
+  position: fixed;
+  top: 65px;
+  left: 0px;
+  justify-content: center;
+  width: 150px;
+  bottom: 0px;
+  z-index: 250;
+}
+
+.navbar-links{
+  margin: 0 20px;
+  transition: 1s ease;
+}
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links a{
+  text-decoration: none;
+  color: rgb(255, 231, 249);
+  padding: 16px;
+  display: none;
+}
+.change ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.change li{
+  list-style: none;
+}
+.change li:hover{
+  background-color: rgb(243, 199, 255);
+}
+.change a{
+  text-decoration: none;
+  color: rgb(228, 133, 255);
+  display: flex;
+}
+
+.change{
+  background-color: rgb(244, 216, 252);
+  position: fixed;
+  top: 65px;
+  left: 0px;
+  margin-left: -40px;
+  margin-top: -65px;
+  height: 315px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(228, 133, 255);
+}
+

@@ -1,0 +1,97 @@
+.header{
+  display: flex;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 65px;
+  background-color: rgb(242, 193, 255);
+  position: fixed;
+  z-index: 200;
+}
+.middle-section{
+  display: flex;
+  margin-left: 650px;
+  flex-direction: row;
+  width: 180px;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand-name{
+  font-family: 'Magnies';
+  color: rgb(255, 249, 255);
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 250ms;
+  
+}
+.brand-name:hover{
+  font-family: 'Magnies';
+  color: rgb(255, 137, 233);
+  font-size: 30px;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Richy';
+  src: url(fonts-new/Richy.ttf);
+}
+@font-face {
+  font-family: 'Magnies';
+  src: url(fonts-new/Magnies.ttf);
+}
+@font-face {
+  font-family: 'Belistaria';
+  src: url(fonts-new/Belistaria\ Signature.ttf);
+}
+.lotus-transition{
+  overflow: hidden;
+  position: relative;
+}
+.lotus-icon{
+  margin-top: 10px;
+  height: 100px;
+  width: 135px;
+  margin-bottom: -5px;
+  margin-left: -20px;
+  opacity: 1;
+  position: absolute;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1000ms;
+  cursor: pointer;
+}
+.lotus-icon2{
+  margin-top: 10px;
+  height: 100px;
+  width: 135px;
+  margin-bottom: -5px;
+  margin-left: -20px;
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-delay: 1000ms;
+}
+.icon-transition:hover .lotus-icon{
+  margin-top: 10px;
+  height: 100px;
+  width: 135px;
+  margin-bottom: -5px;
+  margin-left: -20px;
+  opacity: 0;
+  z-index: 1;
+}
+.icon-transition:hover .lotus-icon2{
+  margin-top: 10px;
+  height: 100px;
+  width: 135px;
+  margin-bottom: -2px;
+  margin-left: -22px;
+  opacity: 1;
+  z-index: 2;
+}
